@@ -1,6 +1,6 @@
 const rating_cards = document.querySelectorAll(".ratings");
-const submit_btn = document.querySelector(".submit-btn");
-const thank_you = document.getElementById("thank-you");
+const submit_btn = document.querySelector(".submit_btn");
+const thank_you = document.getElementById("thank_you");
 const rating = document.getElementById("rating-section");
 const rate_point = document.getElementById("rate");
 

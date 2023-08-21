@@ -67,4 +67,9 @@ body {
 
 .hidden {
   display: none;
+}
+
+.checked {
+  background-color: hsl(25, 97%, 53%) !important;
+  color: hsl(0, 0%, 100%) !important;
 }/*# sourceMappingURL=style.css.map */

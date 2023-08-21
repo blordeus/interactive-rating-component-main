@@ -1,7 +1,7 @@
-const rating_cards = document.querySelectorAll(".ratings");
+const rating_cards = document.querySelectorAll(".ratings-circle");
 const submit_btn = document.querySelector(".submit-btn");
-const thank_you = document.getElementById("thank-you");
-const rating = document.getElementById("rating-section");
+const thank_you = document.querySelector("thank-you");
+const rating = document.querySelector(".rating");
 const rate_point = document.getElementById("rate");
 
 let rate = null;
