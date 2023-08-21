@@ -1,0 +1,82 @@
+  @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+$primary: hsl(25,97%,53%);
+$secondary: hsl(213, 20%, 22%);
+$white: hsl(0, 0%, 100%);
+$light-gray: hsl(217, 12%, 63%);
+$medium-gray: hsl(216, 12%, 54%);
+$dark-blue: hsl(213, 19%, 18%);
+$very-dark-blue: hsl(216, 12%, 8%);
+
+$paragraph-size: 15px;
+
+$font-family: 'Overpass', sans-serif ;
+
+body {
+  font-family: $font-family;
+  font-size: $paragraph-size;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-bg {
+  background-color: $very-dark-blue;
+}
+
+.card-bg {
+  background-color: $dark-blue;
+}
+
+.circle-bg {
+    background-color: $secondary;
+}
+
+.rating{
+    color: $medium-gray;
+}
+
+.rating-complete {
+    color: $primary;
+}
+
+.rating-circle {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $medium-gray;
+    background-color: $secondary;
+    &:hover {
+        background-color: $light-gray;
+        color: white;
+    }
+    
+} 
+
+.submit-btn {
+    background-color: $primary;
+    color: $white;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    &:hover{
+        background-color: white;
+        color: $primary;
+    }
+}
+
+.results {
+
+}
+
+.hidden {
+    display: none;
+}
